@@ -1,0 +1,13 @@
+/*!
+ * ANSELMI404 (http://anselmi404.com.ve)
+ * Copyright 2017-2018.
+ * Licensed under MIT (https://github.com/Alzheimer10/base-template/blob/master/LICENSE)
+ *//*!
+ * variables core.css (anselmi404.scss)
+ *//*!
+ * function
+ *//*!
+ * Mixin (anselmi404.scss)
+ *//*!
+ * initial project
+ */html{min-height:100%;position:relative}body{background-color:#fff;margin:0;margin-bottom:205px;font-family:"Quicksand",sans-serif}a{color:#000}a:hover,a:focus{text-decoration:none;color:gray}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{color:#000}p,span{color:#000}ul{list-style:none}.text-block{display:block}

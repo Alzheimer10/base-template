@@ -1,0 +1,67 @@
+/*!
+ * variables core.css (anselmi404.scss)
+ */
+
+/* path */
+$image-path:	'../img/';
+$font-path:	'../fonts/';
+
+/* fonts */
+$font-primary: 'Quicksand', sans-serif;
+$font-secundary: 'Nova Flat', cursive;
+
+/* colors */
+$color-white:	#FFFFFF;
+$color-silver:	#C0C0C0;
+$color-gray:	#808080;
+$color-black:	#000000;
+$color-red:		#FF0000;
+$color-maroon:	#800000;
+$color-yellow:	#FFFF00;
+$color-olive:	#808000;
+$color-lime:	#00FF00;
+$color-green:	#1a9079;
+$color-aqua:	#00FFFF;
+$color-teal:	#008080;
+$color-blue:	#0000FF;
+$color-navy:	#000080;
+$color-fuchsia:	#FF00FF;
+$color-purple:	#800080;
+
+/* color-core */
+$color-primary: #db962b !default;
+$color-primary-hover: orange !default;
+$color-secondary:		#115a9a; 
+$color-secondary-hover: #4575a4; 
+$bg-body: $color-white;
+$bottom-height: 205px;
+
+/* color-font */
+$color-font: $color-black;
+$color-font-secondary: #d4d4d4;
+$color-font-inv: $color-black;
+$color-font-hover: $color-gray;
+
+
+
+
+$screen-xs:                  480px !default;
+$screen-xs-min:              $screen-xs !default;
+$screen-phone:               $screen-xs-min !default;
+
+
+$screen-sm:                  768px !default;
+$screen-sm-min:              $screen-sm !default;
+$screen-tablet:              $screen-sm-min !default;
+
+$screen-md:                  992px !default;
+$screen-md-min:              $screen-md !default;
+$screen-desktop:             $screen-md-min !default;
+
+$screen-lg:                  1200px !default;
+$screen-lg-min:              $screen-lg !default;
+$screen-lg-desktop:          $screen-lg-min !default;
+
+$screen-xs-max:              ($screen-sm-min - 1) !default;
+$screen-sm-max:              ($screen-md-min - 1) !default;
+$screen-md-max:              ($screen-lg-min - 1) !default;
