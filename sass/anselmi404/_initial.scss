@@ -1,33 +1,40 @@
 /*!
- * initial project
+ * initial core
  */
 
 html {
+    font-size: $font-size-body;
     min-height: 100%;
     position: relative;
 }
-
 body{ 
 	background-color: $bg-body;
-	margin: 0;
-    margin-bottom: $bottom-height;
     font-family: $font-primary;
+	color: $color-font-primary;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	@if variable-exists(footer-height) {
+		margin-bottom: $footer-height;
+	}
+}
+
+h1{font-size: 2rem}
+h2{font-size: 1.5rem}
+h3{font-size: 1.17rem}
+h4{font-size: 1rem}
+h5{font-size: 0.8rem}
+h6{font-size: 0.6rem}
+
+p, span, a{
+	font-size: 0.8rem;
 }
 
 a{
-	color: $color-font;
-	&:hover, &:focus{ text-decoration: none; color: $color-font-hover; }
-}
-
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	color: $color-font;
-}
-p, span{
-	color: $color-font; 
+	color: $color-a;
+	&:hover, &:focus{ text-decoration: none; color: $color-a-hover; }
 }
 
 ul{
 	list-style: none;
 }
-
-.text-block{ display: block }

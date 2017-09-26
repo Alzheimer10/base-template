@@ -13,5 +13,15 @@
 
 // Core CSS
 @import "anselmi404/initial";
+@import "anselmi404/shadow";
+@import "anselmi404/highlight";
+@import "anselmi404/scrollbar";
+@import "anselmi404/selection";
+@import "anselmi404/helper";
 
 // Components
+@import "anselmi404/footer";
+
+// Components w/ JavaScript
+@import "anselmi404/loaders";
+@import "anselmi404/gototop";

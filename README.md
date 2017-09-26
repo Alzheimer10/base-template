@@ -12,8 +12,18 @@ Base Template V0.0.1
 Author: Carlos Anselmi carlosanselmi2@gmail.com
 
 ### VENDORS
-* `Bootstrap`
-* `Font-Awesome`
-* `jquery`
+* `Bootstrap`		-	framework-front-end 3.7
+* `jquery`			-	jquery
+* `Font-Awesome`	-	fonts-icons
+* `animatescroll`	-	animation scroll
+* `scrollreveal`	-	animation css
+* `prefixfree`		-	Prefijos navegadores css
 
-### SCREENCAPTURE
+### GOTOP
+```[html]
+	<!-- botton-gotop -->
+	<div class="ac-gototop gototop-square" onclick="$('body').animatescroll({scrollSpeed:1000});">
+		<a class="js-gotop"><i class="fa fa-chevron-up fa-x2" aria-hidden="true"></i></a>
+	</div>
+	<!-- END-BOTTON-GOTOP -->
+```

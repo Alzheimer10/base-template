@@ -16,11 +16,11 @@
 	transform: translateX($translatex);
 }
 @mixin transition($transition) {
-    -moz-transition:    all $transition ease;
-    -o-transition:      all $transition ease;
-    -webkit-transition: all $transition ease;
-    -ms-transition:     all $transition ease;
-    transition:         all $transition ease;
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    -ms-transition:     $transition;
+    transition:         $transition;
 }
 
 @mixin transform($transform) {
