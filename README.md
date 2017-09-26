@@ -20,10 +20,12 @@ Author: Carlos Anselmi carlosanselmi2@gmail.com
 * `prefixfree`		-	Prefijos navegadores css
 
 ### GOTOP
-```[html]
+```html
+<pre>
 	<!-- botton-gotop -->
 	<div class="ac-gototop gototop-square" onclick="$('body').animatescroll({scrollSpeed:1000});">
 		<a class="js-gotop"><i class="fa fa-chevron-up fa-x2" aria-hidden="true"></i></a>
 	</div>
 	<!-- END-BOTTON-GOTOP -->
+</pre>
 ```
