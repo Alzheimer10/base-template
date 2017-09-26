@@ -19,7 +19,8 @@ Author: Carlos Anselmi carlosanselmi2@gmail.com
 * `scrollreveal`	-	animation css
 * `prefixfree`		-	Prefijos navegadores css
 
-### GOTOP
+### GOTOTOP
+**HTML**
 ```html
 <!-- botton-gotop -->
 <div class="ac-gototop gototop-square" onclick="$('body').animatescroll({scrollSpeed:1000});">
@@ -27,7 +28,7 @@ Author: Carlos Anselmi carlosanselmi2@gmail.com
 </div>
 <!-- END-BOTTON-GOTOP -->
 ```
-
+**JAVASCRIPT**
 ```javascript
 var loaderPage = function() {
 	$(window).load(function(){
