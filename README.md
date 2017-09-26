@@ -21,11 +21,18 @@ Author: Carlos Anselmi carlosanselmi2@gmail.com
 
 ### GOTOP
 ```html
-<pre>
-	<!-- botton-gotop -->
-	<div class="ac-gototop gototop-square" onclick="$('body').animatescroll({scrollSpeed:1000});">
-		<a class="js-gotop"><i class="fa fa-chevron-up fa-x2" aria-hidden="true"></i></a>
-	</div>
-	<!-- END-BOTTON-GOTOP -->
-</pre>
+<!-- botton-gotop -->
+<div class="ac-gototop gototop-square" onclick="$('body').animatescroll({scrollSpeed:1000});">
+	<a class="js-gotop"><i class="fa fa-chevron-up fa-x2" aria-hidden="true"></i></a>
+</div>
+<!-- END-BOTTON-GOTOP -->
+```
+
+```javascript
+var loaderPage = function() {
+	$(window).load(function(){
+		$('body').removeClass('ac-scroll-loader');
+		$(".ac-loader").fadeOut("slow");
+	});
+},
 ```
